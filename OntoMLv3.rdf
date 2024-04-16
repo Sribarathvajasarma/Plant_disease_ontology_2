@@ -473,7 +473,7 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#leaf_mold">
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
-        <OntoMLv3:hasFungalColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#grey"/>
+        <OntoMLv3:hasFungalColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#black"/>
         <OntoMLv3:hasFungalSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#fungal_growth"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#lesions"/>
         <OntoMLv3:hasLeafSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
