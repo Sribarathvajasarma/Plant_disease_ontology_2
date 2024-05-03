@@ -549,6 +549,14 @@
     
 
 
+    <!-- https://github.com/mtbstn24/OntoMLv3#ring_with_crack -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#ring_with_crack">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://github.com/mtbstn24/OntoMLv3#rings -->
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#rings">
@@ -623,7 +631,7 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#target_spot">
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
-        <OntoMLv3:hasFruitSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#spots"/>
+        <OntoMLv3:hasFruitSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#ring_with_crack"/>
         <OntoMLv3:hasFruitSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#brown"/>
         <OntoMLv3:hasLeafHalo rdf:resource="https://github.com/mtbstn24/OntoMLv3#halo"/>
         <OntoMLv3:hasLeafHaloColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
