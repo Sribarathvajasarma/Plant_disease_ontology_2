@@ -202,6 +202,15 @@
     
 
 
+    <!-- https://github.com/mtbstn24/OntoMLv3#hasWebbing -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/mtbstn24/OntoMLv3#hasWebbing">
+        <rdfs:domain rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
+        <rdfs:range rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -595,6 +604,7 @@
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellowing"/>
         <OntoMLv3:hasLeafSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
         <OntoMLv3:hasPlantSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#wilting"/>
+        <OntoMLv3:hasWebbing rdf:resource="https://github.com/mtbstn24/OntoMLv3#Yes"/>
     </owl:NamedIndividual>
     
 
