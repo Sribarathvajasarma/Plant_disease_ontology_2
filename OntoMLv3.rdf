@@ -658,12 +658,10 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#spotted_wilt_virus">
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
-        <OntoMLv3:hasFruitSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#rings"/>
-        <OntoMLv3:hasFruitSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
+        <OntoMLv3:hasFruitHaloColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
+        <OntoMLv3:hasFruitSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellowing"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#bronzing"/>
-        <OntoMLv3:hasPlantSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#stunting"/>
-        <OntoMLv3:hasStemSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#streak"/>
-        <OntoMLv3:hasStemSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#brown"/>
+        <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#curling"/>
     </owl:NamedIndividual>
     
 
