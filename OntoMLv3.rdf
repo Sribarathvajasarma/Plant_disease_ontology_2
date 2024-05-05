@@ -139,6 +139,15 @@
     
 
 
+    <!-- https://github.com/mtbstn24/OntoMLv3#hasOdorSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/mtbstn24/OntoMLv3#hasOdorSymptom">
+        <rdfs:domain rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
+        <rdfs:range rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://github.com/mtbstn24/OntoMLv3#hasOozeColour -->
 
     <owl:ObjectProperty rdf:about="https://github.com/mtbstn24/OntoMLv3#hasOozeColour">
@@ -375,6 +384,14 @@
     
 
 
+    <!-- https://github.com/mtbstn24/OntoMLv3#crinkling -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#crinkling">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://github.com/mtbstn24/OntoMLv3#curling -->
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#curling">
@@ -483,6 +500,7 @@
         <OntoMLv3:hasFungalSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#fungal_growth"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#lesions"/>
         <OntoMLv3:hasLeafSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#brown"/>
+        <OntoMLv3:hasOdorSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#odor"/>
         <OntoMLv3:hasStemSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#spots"/>
         <OntoMLv3:hasStemSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#grey"/>
     </owl:NamedIndividual>
@@ -522,12 +540,22 @@
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#mosaic_virus">
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
         <OntoMLv3:hasCurling rdf:resource="https://github.com/mtbstn24/OntoMLv3#Yes"/>
+        <OntoMLv3:hasFlowerSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#dropping"/>
         <OntoMLv3:hasFruitSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#spots"/>
         <OntoMLv3:hasFruitSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
+        <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#crinkling"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#wilting"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellowing"/>
         <OntoMLv3:hasLeafSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellow"/>
         <OntoMLv3:hasPlantSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#stunting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/mtbstn24/OntoMLv3#odor -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#odor">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
     </owl:NamedIndividual>
     
 
@@ -589,7 +617,7 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#septoria_leaf_spot">
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
-        <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#spots"/>
+        <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#tan_center_spots"/>
         <OntoMLv3:hasLeafSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#brown"/>
         <OntoMLv3:hasStemSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#spots"/>
         <OntoMLv3:hasStemSymptomColour rdf:resource="https://github.com/mtbstn24/OntoMLv3#brown"/>
@@ -648,6 +676,30 @@
     
 
 
+    <!-- https://github.com/mtbstn24/OntoMLv3#sunken_lesions -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#sunken_lesions">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/mtbstn24/OntoMLv3#sunken_spots -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#sunken_spots">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/mtbstn24/OntoMLv3#tan_center_spots -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#tan_center_spots">
+        <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://github.com/mtbstn24/OntoMLv3#target_spot -->
 
     <owl:NamedIndividual rdf:about="https://github.com/mtbstn24/OntoMLv3#target_spot">
@@ -695,6 +747,7 @@
         <rdf:type rdf:resource="https://github.com/mtbstn24/OntoMLv3#Disease"/>
         <OntoMLv3:hasCurling rdf:resource="https://github.com/mtbstn24/OntoMLv3#Yes"/>
         <OntoMLv3:hasFlowerSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#dropping"/>
+        <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#crinkling"/>
         <OntoMLv3:hasLeafSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#yellowing"/>
         <OntoMLv3:hasPlantSymptom rdf:resource="https://github.com/mtbstn24/OntoMLv3#stunting"/>
     </owl:NamedIndividual>
